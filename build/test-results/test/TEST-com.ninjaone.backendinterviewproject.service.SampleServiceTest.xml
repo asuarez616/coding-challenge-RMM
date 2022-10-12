@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ninjaone.backendinterviewproject.service.SampleServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-09T03:16:44" hostname="ASUAREZ" time="0.367">
+  <properties/>
+  <testcase name="saveSampleData()" classname="com.ninjaone.backendinterviewproject.service.SampleServiceTest" time="0.324"/>
+  <testcase name="deleteSampleData()" classname="com.ninjaone.backendinterviewproject.service.SampleServiceTest" time="0.021"/>
+  <testcase name="getSampleData()" classname="com.ninjaone.backendinterviewproject.service.SampleServiceTest" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
