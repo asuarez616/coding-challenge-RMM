@@ -42,7 +42,7 @@ public class ServiceByDeviceController {
 	 *
 	 * @return the total services cost
 	 */
-	@GetMapping("/servicesCost")
+	@GetMapping("/totalCostAllServices")
 	@ResponseStatus(HttpStatus.OK)
 	private TotalServiceCostDTO getTotalServicesCost() {
 		return serviceDeviceServices.getTotalServicesCost();
@@ -53,7 +53,7 @@ public class ServiceByDeviceController {
 	 *
 	 * @return the total services
 	 */
-	@GetMapping("/servicesCostByDevices")
+	@GetMapping("/totalCostAllDevices")
 	@ResponseStatus(HttpStatus.OK)
 	private TotalServiceCostDTO getServicesCostByDevices() {
 		return serviceDeviceServices.getServicesCostByDevices();

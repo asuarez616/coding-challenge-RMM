@@ -14,8 +14,8 @@ The project is configured to use an in-memory H2 database that is volatile. If y
 Run the `BackendInterviewProjectApplication` class
 
 Go to:
-* http://localhost:8080/sample/1
-* http://localhost:8080/sample/2
+* http://localhost:8080/devices/
+* http://localhost:8080/services/S1
 
 You should see results for both of these. The application is working and connected to the H2 database. 
 
@@ -34,7 +34,7 @@ username: sa
 password: password
 ```
 
-You should be able to see a db console now that has the Sample Repository in it.
+You should be able to see a db console now that has the Device, Service Detail, Device by Service Repository on it.
 
 ## STRUCTURE
 
@@ -79,7 +79,7 @@ FOR SERVICES BY DEVICE
 
 | Endpoint | HTTP METHOD| Description |
 | ------ | ------ | ------ |
-|/serviceByDevice/servicesCost | GET  |Gets the total services cost for the all the services registered in the db |
-|/serviceByDevice/servicesCostByDevices | GET  | Gets the total services cost for all the devices registered in the db |
+|/serviceByDevice/totalCostAllServices | GET  |Gets the total services cost for the all the services registered in the db |
+|/serviceByDevice/totalCostAllDevices | GET  | Gets the total services cost for all the devices registered in the db |
 |/serviceByDevice/totalServiceCostByDevices | POST  | Calculate total services cost for a receive devices list |
 |/serviceByDevice/totalServiceCostByServices | POST  | Calculate total services cost for a receive services list |
